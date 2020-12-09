@@ -65,7 +65,11 @@ class _StoryPageState extends State<StoryPage> {
                       storyBrain.nextStory(1);
                     });
                   },
-                  color: Colors.red,
+                  color: Colors.pink[200],
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18),
+                    //side: BorderSide(color: Colors.blueAccent[700]),
+                  ),
                   child: Text(
                     //Use the storyBrain to get the text for choice 1.
                     storyBrain.getChoice1(),
@@ -95,7 +99,11 @@ class _StoryPageState extends State<StoryPage> {
                       //Choice 2 made by user.
                       //Call the nextStory() method from storyBrain and pass the number 2 as the choice made by the user.
                     },
-                    color: Colors.blue,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(18),
+                      //side: BorderSide(color: Colors.blueAccent[700]),
+                    ),
+                    color: Colors.blue[300],
                     child: Text(
                       // Use the storyBrain to get the text for choice 2.
                       storyBrain.getChoice2(),

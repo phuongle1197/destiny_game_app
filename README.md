@@ -18,7 +18,7 @@ Below is the first version of the application based on the challenge's tutorial.
 
 After finishing the challenge, I edited and updated the application by applying what I have learnt from all previous lessons.
 
-<img src="images/demo1.gif" width="400" height="800">
+<img src="images/demo2.gif" width="400" height="800">
 
 
 <a href="https://www.freepik.com/vectors/building">Building vector created by studiogstock - www.freepik.com</a>
